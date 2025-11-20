@@ -1,9 +1,19 @@
----
-title: "About"
----
+# About the App
 
-About this site
+NHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs.
 
-```{r}
-1 + 1
-```
+![](images/Screenshot%202025-11-19%20135329.png){style="display:block; margin-left:auto; margin-right:auto;" width="600"}
+
+#### What the App Does
+
+The app has multiple features, including:
+
+-   View live wait times
+
+-   Find alternative services, such as GP and pharmacies
+
+-   Access information on health conditions and treatments
+
+::: {style="display:flex; justify-content:center; align-items:center;"}
+<img src="images/Screenshot (14).png" width="160" style="margin: 0 40px;"/> <img src="images/Screenshot 2025-11-19 135846.png" width="160" style="margin: 0 40px;"/> <img src="images/Screenshot (23).png" width="160" style="margin: 0 40px;"/>
+:::

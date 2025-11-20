@@ -1,11 +1,18 @@
----
-title: "Website"
----
+![](images/Screenshot 2025-11-19 133902-01.png){.breakout-image}
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+<div class="blue-box">
+NHSquicker is a free app which provides live wait times for NHS services in Devon, Cornwall and Somerset.
+
+-   Helps people choose the right service for them.
+
+-   Helps relieve the pressure off the NHS.
+</div>
+
+
+**A&E waiting times have increased substantially over recent years.**
+
+NHSquicker was created to guide people to choose the appropriate service for them, steering away from unnecessary visits to A&E departments.
+
+![](images/ScreenRecording_11-19-2025%2010-15-48_1-01.mp4)

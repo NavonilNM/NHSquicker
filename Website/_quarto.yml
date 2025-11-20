@@ -2,20 +2,25 @@ project:
   type: website
 
 website:
-  title: "Website"
+  favicon: logo.png
   navbar:
+    logo: logo.png
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - app_features.qmd
+      - evidence&analytics.qmd
+      - research&publications.qmd
+      
+  
+       
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: zephyr
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 

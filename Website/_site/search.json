@@ -1,16 +1,65 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Website",
+    "objectID": "research&publications.html",
+    "href": "research&publications.html",
+    "title": "Research & Publications",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Links to Research Papers:"
+  },
+  {
+    "objectID": "evidence&analytics.html",
+    "href": "evidence&analytics.html",
+    "title": "Evidence & Analytics",
+    "section": "",
+    "text": "The Unique Users graph shows the number of individual user who engaged with the app on a given day. From when we started collecting data (17th Jan 2020) to the present, the number of users per day has increased, and is expected to continue increasing."
+  },
+  {
+    "objectID": "evidence&analytics.html#section",
+    "href": "evidence&analytics.html#section",
+    "title": "Evidence & Analytics",
+    "section": "",
+    "text": "The Unique Users graph shows the number of individual user who engaged with the app on a given day. From when we started collecting data (17th Jan 2020) to the present, the number of users per day has increased, and is expected to continue increasing."
+  },
+  {
+    "objectID": "app_features.html",
+    "href": "app_features.html",
+    "title": "App Features",
+    "section": "",
+    "text": "The NHSquicker app has 3 main features:\n\nView live wait times\nFind alternative services, such as GP and pharmacies\nAccess information on health conditions and treatments"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About the App",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About the App\nNHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs.\n\n\nWhat the App Does\nThe app has multiple features, including:\n\nView live wait times\nFind alternative services, such as GP and pharmacies\nAccess information on health conditions and treatments"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "contact.html#quarto",
+    "href": "contact.html#quarto",
+    "title": "Contact",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "contact.html#running-code",
+    "href": "contact.html#running-code",
+    "title": "Contact",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "NHSquicker is a free app which provides live wait times for NHS services in Devon, Cornwall and Somerset.\n\nHelps people choose the right service for them.\nHelps relieve the pressure off the NHS.\n\n\nA&E waiting times have increased substantially over recent years.\nNHSquicker was created to guide people to choose the appropriate service for them, steering away from unnecessary visits to A&E departments.\nVideo"
   }
 ]
