@@ -12,6 +12,7 @@ website:
       - app_features.qmd
       - evidence&analytics.qmd
       - research&publications.qmd
+      - contact.qmd
       
   
        

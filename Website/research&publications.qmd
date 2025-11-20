@@ -1,0 +1,15 @@
+---
+title: "Research & Publications"
+format: html
+editor: visual
+---
+
+#### Links to Research Papers:
+
+::: {style="display:flex; gap:80px; align-items:center;"}
+<a href="images/Improving Urgent and Emergency Care Decisions in the South West-01.pdf" target="_blank"> <img src="images/Screenshot 2025-11-19 104328.png" width="200"/> </a>
+
+<a href="images/NHE executive_NHSquicker_May2024 (4 pages).pdf" target="_blank"> <img src="images/Screenshot 2025-11-19 104908.png" width="200"/> </a>
+
+<a href="images/Providing Real-Time Information for Urgent Care.pdf" target="_blank"> <img src="images/Screenshot 2025-11-19 105235.png" width="200"/> </a>
+:::
