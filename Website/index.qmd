@@ -1,18 +1,30 @@
-![](images/Screenshot 2025-11-19 133902-01.png){.breakout-image}
+![](images/Screenshot%202025-11-19%20133902-01.png){.breakout-image}
+
+::: {style="margin-top: 120px; margin-bottom: 50px;"}
+## About NHSquicker
+
+NHSquicker is a **free app** which provides **live wait times **for NHS services in **Devon, Cornwall and Somerset**. It was created to help people make **smarter healthcare choices** and reduce unnecessary pressure on the NHS.
+:::
+
+### Why it matters
+
+A&E waiting times have increased substantially over recent years, leading to longer waits and increased strain on emergency services.
+
+### How NHSquicker helps
 
 
+-   **Choose the right service**: guides users to the most appropriate healthcare service for them
 
-<div class="blue-box">
-NHSquicker is a free app which provides live wait times for NHS services in Devon, Cornwall and Somerset.
+-   **Reduce pressure on the NHS:** helps prevent unnecessary visits to A&E
 
--   Helps people choose the right service for them.
+-   **Save time**: uses can see live wait times and plan their visits accordingly
 
--   Helps relieve the pressure off the NHS.
-</div>
+NHSquicker enables **faster, smarter healthcare choices** for people, while helping the NHS run more efficiently.
 
+![](images/ScreenRecording_11-19-2025%2010-15-48_1-01.mp4){autoplay="true" muted="true" loop="true" width="250" style="display:block; margin:100px auto;"}
 
-**A&E waiting times have increased substantially over recent years.**
+### In the News
 
-NHSquicker was created to guide people to choose the appropriate service for them, steering away from unnecessary visits to A&E departments.
-
-![](images/ScreenRecording_11-19-2025%2010-15-48_1-01.mp4)
+::: {style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap; margin-top:50px;"}
+![](images/NHSq_BBC%20spotlight_19th%20May-01.mp4){width="400"} ![](images/NHSquicker_BBC%20Spotlight_18th%20Dec%202017-01.mp4){width="400"}
+:::

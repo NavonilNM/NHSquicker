@@ -1,7 +1,12 @@
-/* css styles */
-/* Change navbar background to NHS blue */
+/* Override Zephyr + Bootstrap primary navbar */
+.navbar.bg-primary,
+.navbar.bg-light,
+.navbar.bg-dark,
+.navbar.navbar-expand-lg,
 .navbar {
-  background-color: #005EB8 !important;
+  background-image: none !important;
+  background-color: #6bb5b3 !important;
+  border-color: #6bb5b3 !important;
 }
 
 /* Navbar links text color */
@@ -20,9 +25,28 @@
   width: auto;
 }
 
+/* Blue box behind the logo only */
+.navbar-brand {
+  background-color: #060f63 !important; /* your blue */
+  padding: 6px 12px;                    /* space inside the box */
+  border-radius: 0 !important;
+  display: inline-flex;                 /* keep logo centered */
+  align-items: center;
+  justify-content: center;
+  height: 40px;                         /* size of the rectangle */
+}
+
+/* Keep the logo smaller than the box */
+.navbar-brand img {
+  height: 40px;    /* adjust as needed */
+  width: auto;
+}
+
+/* 2c78c9, d4820f */
+
 
 .blue-box {
-  background-color: #005EB8;  /* blue background */
+  background-color: #2596be;  /* blue background */
   color: white;               /* white text */
   padding: 20px;              /* space inside the box */
   border-radius: 10px;        /* rounded corners */

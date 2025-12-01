@@ -1,0 +1,71 @@
+/* Override Zephyr + Bootstrap primary navbar */
+.navbar.bg-primary,
+.navbar.bg-light,
+.navbar.bg-dark,
+.navbar.navbar-expand-lg,
+.navbar {
+  background-image: none !important;
+  background-color: #6bb5b3 !important;
+  border-color: #6bb5b3 !important;
+}
+
+/* Navbar links text color */
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Active link color */
+.navbar .nav-link.active {
+  color: white !important;
+}
+
+/* Logo size (optional) */
+.navbar-brand img {
+  height: 45px;
+  width: auto;
+}
+
+/* Blue box behind the logo only */
+.navbar-brand {
+  background-color: #060f63 !important; /* your blue */
+  padding: 6px 12px;                    /* space inside the box */
+  border-radius: 0 !important;
+  display: inline-flex;                 /* keep logo centered */
+  align-items: center;
+  justify-content: center;
+  height: 40px;                         /* size of the rectangle */
+}
+
+/* Keep the logo smaller than the box */
+.navbar-brand img {
+  height: 40px;    /* adjust as needed */
+  width: auto;
+}
+
+/* 2c78c9, d4820f */
+
+
+.blue-box {
+  background-color: #2596be;  /* blue background */
+  color: white;               /* white text */
+  padding: 20px;              /* space inside the box */
+  border-radius: 10px;        /* rounded corners */
+  margin: 20px 0;             /* spacing around the box */
+  font-size: 1.1em;           /* slightly bigger text */
+}
+
+
+
+.breakout-image {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 99.5vw;
+  max-width: 99.5vw;
+  display: block;
+}
+
+
+
