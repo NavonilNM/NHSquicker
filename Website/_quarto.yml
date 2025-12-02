@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  
+publish:
+  gh-pages: true
+  
+
 
 website:
   favicon: logo.png
