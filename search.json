@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "research&publications.html",
-    "href": "research&publications.html",
-    "title": "Research & Publications",
+    "objectID": "app_features.html",
+    "href": "app_features.html",
+    "title": "App Features",
     "section": "",
-    "text": "Links to Research Papers:\n\n  \n  \n  \n\n\n\nFinalist at the HSJ"
+    "text": "The app has multiple features, including:\n\nView live wait times\nFind alternative services, such as GP and pharmacies\nAccess information on health conditions and treatments\nOption to call 111 (for advice) or 999 (emergencies only)\n\n\nView live wait times:\nThis is the primary function of NHSquicker. Two option to view this, either on the list view or map view:\n\n \n\n\n\nAlternative Services:\nThe app also provides information for alternative services such as GP and pharmacies:\n\n\n\n\n\n\n\nHealth Conditions and Treatments:\nThe app provides access to information on health conditions and treatments from https://www.nhs.uk/conditions/.\n\n\nCall 111 or 999"
   },
   {
     "objectID": "evidence&analytics.html",
@@ -21,18 +21,11 @@
     "text": "Unique users graph (17/01/20 - 18/11/25)\n\n\nThe Unique Users graph shows the number of individual user who engaged with the app on a given day. From when we started collecting data (17th Jan 2020) to the present, the number of users per day has increased, and is expected to continue increasing.\n\n\n\nWait time difference split graph (17/01/20 - 19/11/25)\n\n\nThis graph shows summarises user decision-making based on differences in wait times between the closest unit to the user and the unit that the user viewed more options for when viewing wait times on the NHSquicker app. Users most often clicked on units that had shorter wait times than the unit that was closest to them, indicating users are interested in shorter wait times, even if it means travelling further. This highlights the importance of the app for providing real-time wait time information for guiding decisions.\n\n\n\n\n\nLooking at cases where the nearest unit at the time was an emergency department, the graph shows that from the start of data collection to the present, users selected a unit with a shorter wait 87.2% of the time. The emphasises the usefulness of NHSquicker, and shows its importance in decision making."
   },
   {
-    "objectID": "app_features.html",
-    "href": "app_features.html",
-    "title": "App Features",
+    "objectID": "research&publications.html",
+    "href": "research&publications.html",
+    "title": "Research & Publications",
     "section": "",
-    "text": "The app has multiple features, including:\n\nView live wait times\nFind alternative services, such as GP and pharmacies\nAccess information on health conditions and treatments\nOption to call 111 (for advice) or 999 (emergencies only)\n\n\nView live wait times:\nThis is the primary function of NHSquicker. Two option to view this, either on the list view or map view:\n\n \n\n\n\nAlternative Services:\nThe app also provides information for alternative services such as GP and pharmacies:\n\n\n\n\n\n\n\nHealth Conditions and Treatments:\nThe app provides access to information on health conditions and treatments from https://www.nhs.uk/conditions/.\n\n\nCall 111 or 999"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About the App",
-    "section": "",
-    "text": "About the App\nNHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs. The app works by using GPS location or the postcode you type in."
+    "text": "Links to Research Papers:"
   },
   {
     "objectID": "index.html#about-nhsquicker",
@@ -40,5 +33,12 @@
     "title": "",
     "section": "About NHSquicker",
     "text": "About NHSquicker\nNHSquicker is a free app which provides live wait times for NHS services in Devon, Cornwall and Somerset. It was created to help people make smarter healthcare choices and reduce unnecessary pressure on the NHS."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the App",
+    "section": "",
+    "text": "About the App\nNHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs. The app works by using GPS location or the postcode you type in."
   }
 ]
