@@ -9,8 +9,8 @@
 .navbar.bg-dark,
 .navbar.navbar-expand-lg {
   background-image: none !important;
-  background-color: #D35400  !important;     /* Teal navbar */
-  border-color: #F39C12  !important;
+  background-color: #f50707  !important;     
+  border-color: #f50707  !important;
 }
 
 /* Navigation link styling */
