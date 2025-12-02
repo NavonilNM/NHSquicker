@@ -20,7 +20,7 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          project: Website   # <-- points to your Quarto subfolder
+          path: Website   # <-- points to your Quarto subfolder
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
