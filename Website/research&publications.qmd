@@ -14,6 +14,6 @@ editor: visual
 <a href="images/Providing Real-Time Information for Urgent Care.pdf" target="_blank"> <img src="images/Screenshot 2025-11-19 105235.png" width="200"/> </a>
 :::
 
-#### Finalist at the HSJ 
+### Finalist at the HSJ 
 
 ![](images/Screenshot%202025-12-01%20155948.png){width="144"}

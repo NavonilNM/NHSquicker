@@ -6,3 +6,5 @@ NHSquicker is a free app which provides live wait time information for NHS servi
 <img src="images/Screenshot 2025-11-19 135329.png" width="600"/>
 :::
 
+
+## Why it was created

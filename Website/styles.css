@@ -1,7 +1,3 @@
-/* ===========================================
-   NAVBAR — NHS-style clean layout
-   =========================================== */
-
 /* Override Zephyr + Bootstrap navbar colours */
 .navbar,
 .navbar.bg-primary,
@@ -9,9 +5,10 @@
 .navbar.bg-dark,
 .navbar.navbar-expand-lg {
   background-image: none !important;
-  background-color: #f50707  !important;     
-  border-color: #f50707  !important;
+  background-color: #d97f25  !important;     
+  border-color: #d97f25  !important;
 }
+
 
 /* Navigation link styling */
 .navbar .nav-link {
@@ -24,7 +21,7 @@
 }
 
 .navbar .nav-link.active {
-  color: white !important;
+  color: #003087 !important;
 }
 
 
@@ -58,13 +55,27 @@
    =========================================== */
 
 .blue-box {
-  background-color: #2596be;  /* your mid-blue */
+  background-color: #d97f25;  /* your mid-blue */
   color: white;
   padding: 20px;
   border-radius: 6px;
   margin: 20px 0;
   font-size: 1.1em;
   border-left: 6px solid #003087;         /* NHS blue accent */
+}
+
+.blue-box .highlight {
+  color: #003087;  /* for example, gold */
+}
+
+
+
+.feature {
+  flex: 1 1 400px;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 
@@ -81,7 +92,18 @@
   width: 100vw;
   max-width: 100vw;
   display: block;
+  margin-top: 0 !important;   /* ← remove white space above */
+  padding-top: 0 !important;  /* ← extra safety */
 }
+
+
+/* Remove top space ONLY for the breakout image directly under the navbar */
+.navbar + main .breakout-image:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
 
 
 /* ===========================================
@@ -91,6 +113,8 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
+    background-color: #f0f0f0;  /* Replace with your desired color */
+
 }
 
 h1, h2, h3 {

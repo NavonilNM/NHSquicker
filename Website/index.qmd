@@ -1,10 +1,16 @@
 ![](images/Screenshot%202025-11-19%20133902-01.png){.breakout-image}
 
-::: {style="margin-top: 120px; margin-bottom: 50px;"}
+::: {style="margin-top: 100px; margin-bottom: 30px;"}
 ## About NHSquicker
-
-NHSquicker is a **free app** which provides **live wait times **for NHS services in **Devon, Cornwall and Somerset**. It was created to help people make **smarter healthcare choices** and reduce unnecessary pressure on the NHS.
 :::
+<section id="features" class="features">
+  <div class="feature">
+   <p> 
+   NHSquicker is a <strong>free app</strong> providing <strong>live wait times</strong> for NHS services in <strong>Devon, Cornwall and Somerset</strong>. 
+      It was created to help people make <strong>smarter healthcare choices</strong> and reduce unnecessary pressure on the NHS.
+    </p>
+  </div>
+</section>
 
 ### Why it matters
 
@@ -12,19 +18,38 @@ A&E waiting times have increased substantially over recent years, leading to lon
 
 ### How NHSquicker helps
 
+<div class="blue-box">
+  <strong><span class="highlight">Choose the right service:</span></strong> guides users to the most appropriate healthcare service
+</div>
+<div class="blue-box">
+  <strong><span class="highlight">Reduce pressure on the NHS:</span></strong> helps prevent unnecessary visits to A&E
+</div>
+<div class="blue-box">
+  <strong><span class="highlight">Save time:</span></strong> users can see live wait times and plan their visits accordingly
+</div>
 
--   **Choose the right service**: guides users to the most appropriate healthcare service for them
 
--   **Reduce pressure on the NHS:** helps prevent unnecessary visits to A&E
 
--   **Save time**: uses can see live wait times and plan their visits accordingly
 
 NHSquicker enables **faster, smarter healthcare choices** for people, while helping the NHS run more efficiently.
+
+
+### App Demo
+
+Here is a demo of how to use the app, starting from entering your postcode, to finding directions to the chosen service: 
 
 ![](images/ScreenRecording_11-19-2025%2010-15-48_1-01.mp4){autoplay="true" muted="true" loop="true" width="250" style="display:block; margin:100px auto;"}
 
 ### In the News
 
-::: {style="display:flex; gap:20px; justify-content:center; flex-wrap:nowrap; margin-top:50px;"}
-![](images/NHSq_BBC%20spotlight_19th%20May-01.mp4){width="400"} ![](images/NHSquicker_BBC%20Spotlight_18th%20Dec%202017-01.mp4){width="400"}
-:::
+NHSquicker has featured on BBC News.
+
+<div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin:40px 0;">
+  <video width="380" muted controls>
+    <source src="images/NHSq_BBC%20spotlight_19th%20May-01.mp4" type="video/mp4">
+  </video>
+
+  <video width="380" muted controls>
+    <source src="images/NHSquicker_BBC%20Spotlight_18th%20Dec%202017-01.mp4" type="video/mp4">
+  </video>
+</div>
