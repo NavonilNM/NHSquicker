@@ -12,21 +12,56 @@
   </div>
 </section>
 
+
+
 ### Why it matters
 
 A&E waiting times have increased substantially over recent years, leading to longer waits and increased strain on emergency services.
 
-### How NHSquicker helps
 
-<div class="blue-box">
-  <strong><span class="highlight">Choose the right service:</span></strong> guides users to the most appropriate healthcare service
+
+
+
+
+
+
+### How NHSquicker Helps
+
+
+::: {style="display:flex; gap:40px; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; margin:0 10px; margin-top: 80px; margin-bottom: 80px;"} 
+
+::: {style="display:flex; align-items:flex-start; gap:20px; max-width:220px;"}
+![](images/hospital-regular-full.svg){width=60}
+<div style="display:flex; flex-direction:column;">
+  <strong style="font-size:1.4em;">Choose the right service:</strong>
+  <div style="margin-top:10px;">Guides users to the most appropriate healthcare service</div>
 </div>
-<div class="blue-box">
-  <strong><span class="highlight">Reduce pressure on the NHS:</span></strong> helps prevent unnecessary visits to A&E
+:::
+
+::: {style="display:flex; align-items:flex-start; gap:20px; max-width:220px;"}
+![](images/heart-pulse-solid-full.svg){width=60}
+<div style="display:flex; flex-direction:column;">
+  <strong style="font-size:1.4em;">Reduce pressure on the NHS:</strong>
+  <div style="margin-top:10px;">Helps prevent unnecessary visits to A&E</div>
 </div>
-<div class="blue-box">
-  <strong><span class="highlight">Save time:</span></strong> users can see live wait times and plan their visits accordingly
+:::
+
+::: {style="display:flex; align-items:flex-start; gap:20px; max-width:220px;"}
+![](images/clock-regular-full.svg){width=60}
+<div style="display:flex; flex-direction:column;">
+  <strong style="font-size:1.4em;">Save time:</strong>
+  <div style="margin-top:10px;">Users can see live wait times and plan their visits accordingly</div>
 </div>
+:::
+
+:::
+
+
+
+
+
+
+
 
 
 

@@ -32,7 +32,14 @@
     "href": "about.html",
     "title": "About the App",
     "section": "",
-    "text": "NHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs. The app works by using GPS location or the postcode you type in."
+    "text": "NHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs. The app works by using GPS location or the postcode you type in.\n\n\n\n\n\nAccident and Emergency (A&E) departments provide urgent and emergency care services for serious and life-threatening conditions, while other services such as Urgent Treatment Centres, Minor Injury Units (MIUs), Walk-in Centres deal with many of the more common minor injuries and minor illnesses for which people may attend A&E."
+  },
+  {
+    "objectID": "about.html#why-it-was-created",
+    "href": "about.html#why-it-was-created",
+    "title": "About the App",
+    "section": "",
+    "text": "Accident and Emergency (A&E) departments provide urgent and emergency care services for serious and life-threatening conditions, while other services such as Urgent Treatment Centres, Minor Injury Units (MIUs), Walk-in Centres deal with many of the more common minor injuries and minor illnesses for which people may attend A&E."
   },
   {
     "objectID": "index.html#about-nhsquicker",

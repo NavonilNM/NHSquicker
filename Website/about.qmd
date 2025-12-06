@@ -8,3 +8,5 @@ NHSquicker is a free app which provides live wait time information for NHS servi
 
 
 ## Why it was created
+
+Accident and Emergency (A&E) departments provide urgent and emergency care services for serious and life-threatening conditions, while other services such as Urgent Treatment Centres, Minor Injury Units (MIUs), Walk-in Centres deal with many of the more common minor injuries and minor illnesses for which people may attend A&E.
