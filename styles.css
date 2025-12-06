@@ -79,6 +79,43 @@
 }
 
 
+
+.features-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;  /* heading on top, text below */
+  flex: 1 1 250px;
+}
+
+.feature-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.feature-text {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+
+
+
+
 /* ===========================================
    BREAKOUT IMAGES — full-width images
    =========================================== */
@@ -113,7 +150,8 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
-    background-color: #f0f0f0;  /* Replace with your desired color */
+    background-color: #f0f4f0; 
+    /* Replace with your desired color */
 
 }
 
