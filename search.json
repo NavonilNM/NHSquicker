@@ -37,15 +37,43 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About the App",
+    "title": "",
     "section": "",
-    "text": "NHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to improve patient access to NHS services by providing a reliable, easy-to-use platform to manage healthcare needs. The app works by using GPS location or the postcode you type in.\n\n\n\n\n\nAccident and Emergency (A&E) departments provide urgent and emergency care services for serious and life-threatening conditions, while other services such as Urgent Treatment Centres, Minor Injury Units (MIUs), Walk-in Centres deal with many of the more common minor injuries and minor illnesses for which people may attend A&E."
+    "text": "NHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to help people make informed decisions about where to go for urgent, non-life-threatening care. By showing live waiting times, travel times, and service availability across emergency departments, minor injury units (MIUs) and urgent treatment centres (UTCs), the app guides users to the most appropriate service. This helps reduce unnecessary pressure on A&E departments, improving overally patient experience and flow."
   },
   {
-    "objectID": "about.html#why-it-was-created",
-    "href": "about.html#why-it-was-created",
-    "title": "About the App",
+    "objectID": "about.html#about-the-app",
+    "href": "about.html#about-the-app",
+    "title": "",
     "section": "",
-    "text": "Accident and Emergency (A&E) departments provide urgent and emergency care services for serious and life-threatening conditions, while other services such as Urgent Treatment Centres, Minor Injury Units (MIUs), Walk-in Centres deal with many of the more common minor injuries and minor illnesses for which people may attend A&E."
+    "text": "NHSquicker is a free app which provides live wait time information for NHS services in Devon, Cornwall and Somerset. It was developed to help people make informed decisions about where to go for urgent, non-life-threatening care. By showing live waiting times, travel times, and service availability across emergency departments, minor injury units (MIUs) and urgent treatment centres (UTCs), the app guides users to the most appropriate service. This helps reduce unnecessary pressure on A&E departments, improving overally patient experience and flow."
+  },
+  {
+    "objectID": "about.html#why-the-app-was-developed",
+    "href": "about.html#why-the-app-was-developed",
+    "title": "",
+    "section": "Why the app was developed",
+    "text": "Why the app was developed\nA&E services across England have faced increasing pressure, with many departments struggling to meet the national 4 hour standard. Research from the University of Exeter and NHS partners found that while MIUs and UTCs often met waiting time targets, A&E departments were underperforming due to high demand. NHSquicker was developed to address this challenge by helping patients choose suitable alternatives with shorter waits, reducing overcrowding and supporting the urgent-care network."
+  },
+  {
+    "objectID": "about.html#who-the-app-is-for",
+    "href": "about.html#who-the-app-is-for",
+    "title": "",
+    "section": "Who the App is For",
+    "text": "Who the App is For\nNHSquicker is designed for members of the public with urgent but not life-threatening health concerns, helping them quickly locate nearby care options. It also benefits NHS organisations by supporting better distribution of patient demand across regional urgent-care services."
+  },
+  {
+    "objectID": "about.html#who-developed-it",
+    "href": "about.html#who-developed-it",
+    "title": "",
+    "section": "Who Developed It",
+    "text": "Who Developed It\nThe app is a collaboration between the University of Exeter, NHS organisations across Devon, Cornwall and Somerset, and system integration partners. The platform has evolved through joint work with NHS analysts, clinicians, operational researchers, and digital transformation teams. The project forms part of the Health and Care IMPACT Network, supporting data-driven improvements in urgent and emergency care."
+  },
+  {
+    "objectID": "about.html#the-problem-it-solves",
+    "href": "about.html#the-problem-it-solves",
+    "title": "",
+    "section": "The Problem It Solves",
+    "text": "The Problem It Solves\nHigh attendance at A&E for non-emergency conditions leads to long waiting times, overcrowding, and poorer experiences for patients. Many patients could be safely treated at MIUs or UTCs but lack awareness of nearby alternatives. NHSquicker addresses this by providing real-time, practical information - helping people go to the right place, at the right time, and reducing avoidable A&E attendances."
   }
 ]
