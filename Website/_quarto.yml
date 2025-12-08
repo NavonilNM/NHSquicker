@@ -8,7 +8,7 @@ publish:
 
 
 website:
-  favicon: logo.png
+  favicon: logo_favicon.png
   navbar:
     logo: logo.png
     left:

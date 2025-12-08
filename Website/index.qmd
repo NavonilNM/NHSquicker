@@ -1,4 +1,15 @@
-![](images/Screenshot%202025-11-19%20133902-01.png){.breakout-image}
+<div class="top-image-container">
+  ![](images/Screenshot%202025-11-19%20133902-01.png){.top-image}
+</div>
+
+
+
+<a href="https://apps.apple.com/gb/app/nhsquicker/id1312817040" target="_blank"> <img src="apple-store.svg" width="200"/> </a>
+
+<a href="https://play.google.com/store/apps/details?id=uk.co.nhsquicker.app&hl=en_GB" target="_blank"> <img src="google-play.svg" width="200"/> </a>
+
+
+<a href="https://nhsquicker.co.uk/app" target="_blank"> <img src="browser-icon.png" width="200"/> </a>
 
 ::: {style="margin-top: 100px; margin-bottom: 30px;"}
 ## About NHSquicker
@@ -11,6 +22,9 @@
     </p>
   </div>
 </section>
+
+
+
 
 
 
@@ -30,26 +44,26 @@ A&E waiting times have increased substantially over recent years, leading to lon
 
 ::: {style="display:flex; gap:40px; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; margin:0 10px; margin-top: 80px; margin-bottom: 80px;"} 
 
-::: {style="display:flex; align-items:flex-start; gap:20px; max-width:220px;"}
-![](images/hospital-regular-full.svg){width=60}
+::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-left:-20px;"}
+![](images/hospital-regular-full.svg){width=70}
 <div style="display:flex; flex-direction:column;">
-  <strong style="font-size:1.4em;">Choose the right service:</strong>
+  <strong style="font-size:1.2em;">Choose the right service:</strong>
   <div style="margin-top:10px;">Guides users to the most appropriate healthcare service</div>
 </div>
 :::
 
-::: {style="display:flex; align-items:flex-start; gap:20px; max-width:220px;"}
-![](images/heart-pulse-solid-full.svg){width=60}
+::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-left: -5px; margin-right: -5px;"}
+![](images/heart-pulse-solid-full.svg){width=70}
 <div style="display:flex; flex-direction:column;">
-  <strong style="font-size:1.4em;">Reduce pressure on the NHS:</strong>
+  <strong style="font-size:1.2em;">Reduce pressure on the NHS:</strong>
   <div style="margin-top:10px;">Helps prevent unnecessary visits to A&E</div>
 </div>
 :::
 
-::: {style="display:flex; align-items:flex-start; gap:20px; max-width:220px;"}
-![](images/clock-regular-full.svg){width=60}
+::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-right:-20px;"}
+![](images/clock-regular-full.svg){width=70}
 <div style="display:flex; flex-direction:column;">
-  <strong style="font-size:1.4em;">Save time:</strong>
+  <strong style="font-size:1.2em;">Save time:</strong>
   <div style="margin-top:10px;">Users can see live wait times and plan their visits accordingly</div>
 </div>
 :::
@@ -61,6 +75,7 @@ A&E waiting times have increased substantially over recent years, leading to lon
 
 
 
+High volumes of patients attending A&E can lead to over-crowding, rising pressure on A&E services and poorer experience for patients.
 
 
 
