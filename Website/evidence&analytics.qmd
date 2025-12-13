@@ -6,6 +6,8 @@ editor: visual
 
 ## 
 
+Since launching in 2017, NHSquicker has expanded to cover 37 urgent care facilities serving 1.9 million people across Devon, Cornwall and Somerset. Early data shows a positive shift in patient behavior, with reductions in A&E attendance and increased use of MIUs and UTCs. The app also won the **Lyn Thomas Impact Medal** for demonstrating strong real-world impact and was featured as a **REF2021 Impact Case Study**.
+
 ![Unique users graph (17/01/20 - 18/11/25)](images/Screenshot%202025-11-19%20123144.png)
 
 The Unique Users graph shows the number of individual user who engaged with the app on a given day. From when we started collecting data (17th Jan 2020) to the present, the number of users per day has increased, and is expected to continue increasing.

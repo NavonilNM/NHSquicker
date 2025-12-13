@@ -11,9 +11,7 @@ NHSquicker is a free app which provides live wait time information for NHS servi
 
 :::
 
-::: {style="text-align:center; margin-top:100px; margin-bottom:100px"}
-<img src="images/Screenshot 2025-11-19 135329.png" width="600"/>
-:::
+
 
 ## Why the app was developed
 
@@ -26,10 +24,15 @@ NHSquicker is designed for members of the public with urgent but not life-threat
 
 ## Who Developed It
 
+<img src="images/Screenshot 2025-11-19 135329.png" style="float:right; width:300px; margin-left:20px; margin-bottom:20px;"/>
+
+
 The app is a collaboration between the University of Exeter, NHS organisations across Devon, Cornwall and Somerset, and system integration partners. The platform has evolved through joint work with NHS analysts, clinicians, operational researchers, and digital transformation teams. The project forms part of the Health and Care IMPACT Network, supporting data-driven improvements in urgent and emergency care.
 
 
 ## The Problem It Solves
 
 High attendance at A&E for non-emergency conditions leads to long waiting times, overcrowding, and poorer experiences for patients. Many patients could be safely treated at MIUs or UTCs but lack awareness of nearby alternatives. NHSquicker addresses this by providing real-time, practical information - helping people go to the right place, at the right time, and reducing avoidable A&E attendances.
+
+
 

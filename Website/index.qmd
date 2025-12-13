@@ -3,25 +3,71 @@
 </div>
 
 
+::: {style="display:flex; gap:40px; align-items:center;"}
+<a href="https://apps.apple.com/gb/app/nhsquicker/id1312817040" target="_blank"> <img src="apple-store.svg" width="100"/> </a>
 
-<a href="https://apps.apple.com/gb/app/nhsquicker/id1312817040" target="_blank"> <img src="apple-store.svg" width="200"/> </a>
-
-<a href="https://play.google.com/store/apps/details?id=uk.co.nhsquicker.app&hl=en_GB" target="_blank"> <img src="google-play.svg" width="200"/> </a>
+<a href="https://play.google.com/store/apps/details?id=uk.co.nhsquicker.app&hl=en_GB" target="_blank"> <img src="google-play.svg" width="100"/> </a>
 
 
-<a href="https://nhsquicker.co.uk/app" target="_blank"> <img src="browser-icon.png" width="200"/> </a>
-
-::: {style="margin-top: 100px; margin-bottom: 30px;"}
-## About NHSquicker
+<a href="https://nhsquicker.co.uk/app" target="_blank"> <img src="browser-icon.png" width="100"/> </a>
 :::
-<section id="features" class="features">
-  <div class="feature">
-   <p> 
-   NHSquicker is a <strong>free app</strong> providing <strong>live wait times</strong> for NHS services in <strong>Devon, Cornwall and Somerset</strong>. 
-      It was created to help people make <strong>smarter healthcare choices</strong> and reduce unnecessary pressure on the NHS.
-    </p>
-  </div>
-</section>
+
+
+
+::: {style="background-color:#081f47; color:white; padding:50px 15px; margin-top:100px; margin-bottom:60px;"}
+
+## <span style="color:white; text-align:center; display:block;">What is NHSquicker</span>
+
+<p style="max-width:650px; margin:20px auto; text-align:left;">
+NHSquicker is a <strong>free app</strong> providing <strong>live wait times</strong> for NHS services in 
+<strong>Devon, Cornwall and Somerset</strong>. It was created to help people make 
+<strong>smarter healthcare choices</strong> and reduce unnecessary pressure on the NHS.
+</p>
+
+::: {style="display:flex; justify-content:center; align-items:center; flex-wrap:nowrap; margin-top:50px;"}
+<img src="images/clipboard-428798540.png" width="160" style="margin:0 40px;"/>
+<img src="images/clipboard-2580061551.png" width="160" style="margin:0 40px;"/>
+<img src="images/Screenshot 2025-11-19 135846.png" width="160" style="margin:0 40px;"/>
+:::
+
+:::
+
+
+
+
+
+
+
+
+
+
+::: {style="display:flex; gap:40px; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; margin:0 10px; margin-top: 80px; margin-bottom: 80px;"}
+
+::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-left:-20px;"}
+![](images/hospital-regular-full.svg){width=70}
+<div style="display:flex; flex-direction:column;">
+<strong style="font-size:1.2em;">Choose the right service:</strong>
+<div style="margin-top:10px;">Guides users to the most appropriate healthcare service</div>
+</div>
+:::
+
+::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-left:-5px; margin-right:-5px;"}
+![](images/heart-pulse-solid-full.svg){width=70}
+<div style="display:flex; flex-direction:column;">
+<strong style="font-size:1.2em;">Reduce pressure on the NHS:</strong>
+<div style="margin-top:10px;">Helps prevent unnecessary visits to A&E</div>
+</div>
+:::
+
+::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-right:-20px;"}
+![](images/clock-regular-full.svg){width=70}
+<div style="display:flex; flex-direction:column;">
+<strong style="font-size:1.2em;">Save time:</strong>
+<div style="margin-top:10px;">Users can see live wait times and plan their visits accordingly</div>
+</div>
+:::
+
+:::
 
 
 
@@ -90,7 +136,9 @@ Here is a demo of how to use the app, starting from entering your postcode, to f
 
 ![](images/ScreenRecording_11-19-2025%2010-15-48_1-01.mp4){autoplay="true" muted="true" loop="true" width="250" style="display:block; margin:100px auto;"}
 
+::: {style="text-align:center;"}
 ### In the News
+:::
 
 NHSquicker has featured on BBC News.
 
