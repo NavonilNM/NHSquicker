@@ -25,7 +25,14 @@
     "href": "app_features.html",
     "title": "App Features",
     "section": "",
-    "text": "The app has multiple features, including:\n\nView live wait times\nFind alternative services, such as GP and pharmacies\nAccess information on health conditions and treatments\nOption to call 111 (for advice) or 999 (emergencies only)\n\n\nView live wait times:\nThis is the primary function of NHSquicker. Two option to view this, either on the list view or map view:\n\n \n\n\n\nAlternative Services:\nThe app also provides information for alternative services such as GP and pharmacies:\n\n\n\n\n\n\n\nHealth Conditions and Treatments:\nThe app provides access to information on health conditions and treatments from https://www.nhs.uk/conditions/.\n\n\nCall 111 or 999"
+    "text": "NHSquicker provides a range of features designed to help users find the most appropriate urgent-care service."
+  },
+  {
+    "objectID": "app_features.html#view-live-wait-times",
+    "href": "app_features.html#view-live-wait-times",
+    "title": "App Features",
+    "section": "View live wait times",
+    "text": "View live wait times\nThis is the primary function of NHSquicker, enabling users to compare real-time waiting times and choose the most appropriate service for their needs.\n\n\nStep 1: Enter your postcode\n\n\n\n\n\n\nEnter your postcode to find nearby NHS urgent-care services.\n\n\n\n\nStep 2: Choose how to view wait times\nUsers can view wait times in two ways: a list view or a map view.\n\n\nList view\n\n\nView a list of nearby NHS services and compare live waiting times.\n\n\n\nMap view\n\n\nView nearby NHS services on a map to see locations and distances.\n\n\n\n\n\n\nStep 3: View service details\nSelect a service to view more detailed information, including wait times and service status.\n\n\n\n\n\n\n\n\nStep 4: Get directions\nUsers can view directions to the selected service, helping them plan their journey.\n\n\n\n\n\n\n\nWhy this matters\nBy providing real-time wait times and clear directions, NHSquicker helps users make informed decisions and reduces unnecessary pressure on A&E services.\n\nNHSquicker provides a range of features designed to help users find the most appropriate urgent-care service.\n\n\nAlternative Services:\nThe app also provides information for alternative services such as GP and pharmacies:\n\n\n\n\n\n\n\nHealth Conditions and Treatments:\nThe app provides access to trusted information on health conditions and treatments, linking directly to content from the NHS website.\nhttps://www.nhs.uk/conditions/.\n\n\nCall 111 or 999\nNHSquicker allows users to quickly access urgent advice or emergency services when needed.\n\nNHS 111 for urgent medical advice\n\n999 for emergencies only"
   },
   {
     "objectID": "about.html",

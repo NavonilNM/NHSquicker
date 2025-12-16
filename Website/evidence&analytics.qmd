@@ -12,10 +12,10 @@ Since launching in 2017, NHSquicker has expanded to cover 37 urgent care facilit
 
 The Unique Users graph shows the number of individual user who engaged with the app on a given day. From when we started collecting data (17th Jan 2020) to the present, the number of users per day has increased, and is expected to continue increasing.
 
-![Wait time difference split graph (17/01/20 - 19/11/25)](images/Screenshot 2025-11-20 133643.png){fig-align="center" width="402"}
+![Wait time difference split graph (17/01/20 - 19/11/25)](images/Screenshot%202025-11-20%20133643.png){fig-align="center" width="402"}
 
 This graph shows summarises user decision-making based on differences in wait times between the closest unit to the user and the unit that the user viewed more options for when viewing wait times on the NHSquicker app. Users most often clicked on units that had shorter wait times than the unit that was closest to them, indicating users are interested in shorter wait times, even if it means travelling further. This highlights the importance of the app for providing real-time wait time information for guiding decisions.
 
-![](images/Screenshot 2025-11-20 134325.png){fig-align="center" width="421"}
+![](images/Screenshot%202025-11-20%20134325.png){fig-align="center" width="421"}
 
 Looking at cases where the nearest unit at the time was an emergency department, the graph shows that from the start of data collection to the present, users selected a unit with a shorter wait 87.2% of the time. The emphasises the usefulness of NHSquicker, and shows its importance in decision making.
