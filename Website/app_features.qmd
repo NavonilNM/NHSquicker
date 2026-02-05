@@ -75,16 +75,6 @@ Users can view directions to the selected service, helping them plan their journ
 
 ![](images/IMG_2734.jpg){fig-align="center" width="190"}
 
----
-
-::: {style="margin-top:50px; padding:20px; background:#f9f9f9; border-left:5px solid #005eb8;"}
-**Why this matters**
-
-By providing real-time wait times and clear directions, NHSquicker helps users make informed decisions and reduces unnecessary pressure on A&E services.
-:::
-
-
-
 
 
 

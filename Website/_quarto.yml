@@ -14,12 +14,60 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       - app_features.qmd
-      - evidence&analytics.qmd
+      - href: impact.qmd
+        text: Impact
       - research&publications.qmd
       - contact.qmd
-      
+  sidebar:
+    style: docked
+    background: "#609c91"
+    foreground: "white"
+    collapse-level: 1
+    contents:
+
+      - section: "Data & Methodology"
+        contents:
+          - text: "Data sources"
+            href: data_sources.qmd
+            icon: database
+          - text: "Data process"
+            href: data_process.qmd
+            icon: arrow-repeat
+          - text: "Methodology"
+            href: methodology.qmd
+            icon: diagram-3
+          - text: "Limitations"
+            href: limitations.qmd
+            icon: exclamation-circle
+
+      - section: "Evidence & Impact"
+        contents:
+          - text: "Achievements"
+            href: achievements.qmd
+            icon: trophy
+          - text: "In the news"
+            href: in_the_news.qmd
+            icon: newspaper
+          - text: "Awards"
+            href: awards.qmd
+            icon: award
+          - text: "Evidence & Analytics"
+            href: evidence&analytics.qmd
+
+      - section: "Governance"
+        contents:
+          - text: "Clinical oversight"
+            href: clinical_oversight.qmd
+            icon: clipboard-check
+          - text: "Information governance"
+            href: information_governance.qmd
+            icon: shield-check
+          - text: "Accessibility"
+            href: accessibility.qmd
+            icon: universal-access
   
        
 

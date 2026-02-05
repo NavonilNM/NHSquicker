@@ -1,9 +1,10 @@
-<div class="top-image-container">
-  ![](images/Screenshot%202025-11-19%20133902-01.png){.top-image}
-</div>
+![](images/Screenshot%202025-11-19%20133902-01.png)
 
 
-::: {style="display:flex; gap:40px; align-items:center;"}
+
+
+
+::: {style="display:flex; gap:40px; align-items:center; margin-top:100px"}
 <a href="https://apps.apple.com/gb/app/nhsquicker/id1312817040" target="_blank"> <img src="apple-store.svg" width="100"/> </a>
 
 <a href="https://play.google.com/store/apps/details?id=uk.co.nhsquicker.app&hl=en_GB" target="_blank"> <img src="google-play.svg" width="100"/> </a>
@@ -14,9 +15,9 @@
 
 
 
-::: {style="background-color:#081f47; color:white; padding:50px 15px; margin-top:100px; margin-bottom:60px;"}
+::: {style="background-color:white; color:#334155; padding:50px 15px; margin-top:100px; margin-bottom:60px;"}
 
-## <span style="color:white; text-align:center; display:block;">What is NHSquicker</span>
+## <span style="color:#334155; text-align:center; display:block;">What is NHSquicker</span>
 
 <p style="max-width:650px; margin:20px auto; text-align:left;">
 NHSquicker is a <strong>free app</strong> providing <strong>live wait times</strong> for NHS services in 
@@ -28,43 +29,6 @@ NHSquicker is a <strong>free app</strong> providing <strong>live wait times</str
 <img src="images/clipboard-428798540.png" width="160" style="margin:0 40px;"/>
 <img src="images/clipboard-2580061551.png" width="160" style="margin:0 40px;"/>
 <img src="images/Screenshot 2025-11-19 135846.png" width="160" style="margin:0 40px;"/>
-:::
-
-:::
-
-
-
-
-
-
-
-
-
-
-::: {style="display:flex; gap:40px; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; margin:0 10px; margin-top: 80px; margin-bottom: 80px;"}
-
-::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-left:-20px;"}
-![](images/hospital-regular-full.svg){width=70}
-<div style="display:flex; flex-direction:column;">
-<strong style="font-size:1.2em;">Choose the right service:</strong>
-<div style="margin-top:10px;">Guides users to the most appropriate healthcare service</div>
-</div>
-:::
-
-::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-left:-5px; margin-right:-5px;"}
-![](images/heart-pulse-solid-full.svg){width=70}
-<div style="display:flex; flex-direction:column;">
-<strong style="font-size:1.2em;">Reduce pressure on the NHS:</strong>
-<div style="margin-top:10px;">Helps prevent unnecessary visits to A&E</div>
-</div>
-:::
-
-::: {style="display:flex; align-items:flex-start; gap:10px; max-width:220px; margin-right:-20px;"}
-![](images/clock-regular-full.svg){width=70}
-<div style="display:flex; flex-direction:column;">
-<strong style="font-size:1.2em;">Save time:</strong>
-<div style="margin-top:10px;">Users can see live wait times and plan their visits accordingly</div>
-</div>
 :::
 
 :::
