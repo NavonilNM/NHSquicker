@@ -5,8 +5,8 @@
 .navbar.bg-dark,
 .navbar.navbar-expand-lg {
   background-image: none !important;
-  background-color: #d97f25  !important;     
-  border-color: #d97f25  !important;
+  background-color: #eda232  !important;     
+  border-color: #eda232  !important;
 }
 
 
@@ -23,6 +23,123 @@
 .navbar .nav-link.active {
   color: #003087 !important;
 }
+
+
+
+/* ==============================
+
+
+
+/* ================================
+   SIDEBAR – NHS INFORMATION STYLE
+================================ */
+
+.sidebar {
+  width: 200px;
+  background-color: #609c91 !important;
+  border-right: none;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: white !important;
+  font-weight: 400;
+}
+
+/* Hover state */
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white !important;
+}
+
+/* Active page */
+.sidebar .active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white !important;
+}
+
+/* Section titles */
+.sidebar-section-title {
+  color: white !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar .nav-link {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.sidebar-section {
+  margin-bottom: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+.reference-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+
+.reference-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+.reference-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1rem 1rem 0.6rem 1rem;
+  background-color: #f5f7f8;
+  border-left: 6px solid #609c91;
+}
+
+/* Logo sizing */
+.reference-logo {
+  width: 120px;
+  max-height: 60px;
+  object-fit: contain;
+  justify-self: center;
+}
+
+/* Text block */
+.reference-content {
+  line-height: 1.4;
+}
+
+/* Trust name */
+.reference-content strong {
+  display: block;
+  margin-bottom: 0.07rem;
+}
+
+/* Link spacing */
+.reference-content a {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+
+
+
 
 
 /* ===========================================
@@ -111,6 +228,7 @@
   font-size: 1em;
   line-height: 1.4;
 }
+
 
 
 
