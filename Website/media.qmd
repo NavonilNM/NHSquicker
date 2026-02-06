@@ -1,0 +1,30 @@
+## Achievements {#achievements}
+
+
+
+
+## Awards {#awards}
+
+### Finalist at the HSJ
+
+![](images/Screenshot%202025-12-01%20155948.png){width="144"}
+
+
+
+## News {#news}
+
+
+NHSquicker has featured on BBC News.
+
+<div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin:40px 0;">
+  <video width="380" muted controls>
+    <source src="images/NHSq_BBC%20spotlight_19th%20May-01.mp4" type="video/mp4">
+  </video>
+
+  <video width="380" muted controls>
+    <source src="images/NHSquicker_BBC%20Spotlight_18th%20Dec%202017-01.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+

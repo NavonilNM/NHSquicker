@@ -1,0 +1,106 @@
+::: {style="display:flex; flex-wrap:wrap; gap:2rem; align-items:flex-start;"}
+
+<!-- Left column: list of services -->
+<div style="flex:1 1 350px; min-width:300px;">
+
+### Data sources {#data-sources}
+
+<details>
+<summary>Torbay & South Devon NHS Foundation Trust</summary>
+
+- Torbay Hospital A&E
+- Dawlish Hospital MIU (Not Live/Temp Closure)
+- Newton Abbot Hospital MIU
+- Totnes Hospital MIU
+
+</details>
+
+<details>
+<summary>Royal Devon University Healthcare NHS Foundation Trust</summary>
+
+- RD&E Hospital Wonford (A&E)
+- North Devon District Hospital (A&E)
+- Honiton Hospital MIU
+- Bideford Hospital MIU (Not Live/Temp Closure)
+- Ilfracombe Tyrrell Hospital MIU (Not Live/Temp Closure)
+- Lynton Resource Centre MIU (Not Live/Temp Closure)
+- Sidwell Street Walk-in Centre
+- Exmouth MIU
+- Okehampton MIU (Not Live)
+- Ottery MIU (Not Live/Temp Closure)
+- Ilfracombe Assessment and Treatment Centre (Not Live/Temp Closure)
+
+</details>
+
+<details>
+<summary>Plymouth Hospitals NHS Trust</summary>
+
+- Derriford Hospital (A&E)
+- Tavistock MIU
+- Kingsbridge MIU
+- Cumberland Urgent Treatment Centre (formerly Plymouth MIU)
+
+</details>
+
+<details>
+<summary>Royal Cornwall Hospitals NHS Trust</summary>
+
+- Royal Cornwall Hospital Treliske (A&E)
+- Bodmin MIU
+- Camborne Redruth MIU
+- Falmouth MIU
+- Helston MIU
+- Launceston MIU
+- Liskeard MIU
+- Newquay MIU
+- St Austell MIU
+- St Marys Isles of Scilly MIU
+- Stratton MIU
+- West Cornwall URGENT CARE CENTRE
+
+</details>
+
+<details>
+<summary>Somerset NHS Foundation Trust</summary>
+
+- Yeovil Hospital (A&E)
+- Mushgrove Park Hospital (A&E)
+- Bridgwater Urgent Treatment Centre
+- Burnham on Sea MIU
+- Chard Urgent Treatment Centre
+- Frome Urgent Treatment Centre
+- West Mendip (Glastonbury) Urgent Treatment Centre
+- Minehead Urgent Treatment Centre
+- Shepton Mallet Urgent Treatment Centre
+
+</details>
+
+<details>
+<summary>South Western Ambulance Trust</summary>
+
+- Tiverton Urgent Care Centre
+
+</details>
+
+</div>
+
+<!-- Right column: map -->
+<div style="flex:1 1 350px; min-width:300px;">
+![](Rplot08.png){width="100%" alt="Map of NHSquicker service locations"}
+</div>
+
+:::
+
+
+
+## Data process {#data-process}
+
+![](DAS_architecture.png)
+
+
+
+
+## Limitations {#limitations-data}
+
+
+limitations

@@ -1,17 +1,23 @@
-![](images/Screenshot%202025-11-19%20133902-01.png)
+::: {.homepage-card}
 
+![](images/Screenshot%202025-11-19%20133902-01.png){.homepage-image}
 
+::: {style="display:flex; gap:40px; align-items:center; justify-content:center; margin-top:1rem"}
+<a href="https://apps.apple.com/gb/app/nhsquicker/id1312817040" target="_blank">
+  <img src="apple-store.svg" width="100"/>
+</a>
 
+<a href="https://play.google.com/store/apps/details?id=uk.co.nhsquicker.app&hl=en_GB" target="_blank">
+  <img src="google-play.svg" width="100"/>
+</a>
 
-
-::: {style="display:flex; gap:40px; align-items:center; margin-top:100px"}
-<a href="https://apps.apple.com/gb/app/nhsquicker/id1312817040" target="_blank"> <img src="apple-store.svg" width="100"/> </a>
-
-<a href="https://play.google.com/store/apps/details?id=uk.co.nhsquicker.app&hl=en_GB" target="_blank"> <img src="google-play.svg" width="100"/> </a>
-
-
-<a href="https://nhsquicker.co.uk/app" target="_blank"> <img src="browser-icon.png" width="100"/> </a>
+<a href="https://nhsquicker.co.uk/app" target="_blank">
+  <img src="browser-icon.png" width="100"/>
+</a>
 :::
+
+:::
+
 
 
 

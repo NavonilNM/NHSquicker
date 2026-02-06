@@ -1,3 +1,0 @@
-## Data process
-
-![](DAS_architecture.png)

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>App Features</title>
+<title>data_and_methodology</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./app_features.html" aria-current="page"> 
+    <a class="nav-link" href="./app_features.html"> 
 <span class="menu-text">App Features</span></a>
   </li>  
   <li class="nav-item">
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">App Features</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -223,125 +223,113 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">App Features</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>NHSquicker provides a range of features designed to help users find the most appropriate urgent-care service.</p>
-<section id="feature-overview" class="level3">
-<h3 class="anchored" data-anchor-id="feature-overview">Feature Overview</h3>
+<div style="display:flex; flex-wrap:wrap; gap:2rem; align-items:flex-start;">
+<!-- Left column: list of services -->
+<section id="data-sources" class="level3" style="flex:1 1 350px; min-width:300px;">
+<h3 class="anchored" data-anchor-id="data-sources">Data sources</h3>
+<details>
+<summary>
+Torbay &amp; South Devon NHS Foundation Trust
+</summary>
 <ul>
-<li><strong>View live wait times</strong></li>
-<li><strong>Find alternative services</strong>, such as GPs and pharmacies</li>
-<li><strong>Access information</strong> on health conditions and treatments</li>
-<li>Option to <strong>call NHS 111</strong> (for advice) <strong>or 999</strong> (emergencies only)</li>
+<li>Torbay Hospital A&amp;E</li>
+<li>Dawlish Hospital MIU (Not Live/Temp Closure)</li>
+<li>Newton Abbot Hospital MIU</li>
+<li>Totnes Hospital MIU</li>
 </ul>
-<hr>
-</section>
-<section id="view-live-wait-times" class="level2">
-<h2 class="anchored" data-anchor-id="view-live-wait-times">View live wait times</h2>
-<p>This is the primary function of NHSquicker, enabling users to compare real-time waiting times and choose the most appropriate service for their needs.</p>
-<hr>
-<section id="step-1-enter-your-postcode" class="level4">
-<h4 class="anchored" data-anchor-id="step-1-enter-your-postcode">Step 1: Enter your postcode</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Screenshot 2025-12-15 160443.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="180"></p>
-</figure>
-</div>
-<p style="text-align:center;">
-Enter your postcode to find nearby NHS urgent-care services.
-</p>
-<hr>
-</section>
-<section id="step-2-choose-how-to-view-wait-times" class="level4">
-<h4 class="anchored" data-anchor-id="step-2-choose-how-to-view-wait-times">Step 2: Choose how to view wait times</h4>
-<p>Users can view wait times in two ways: a <strong>list view</strong> or a <strong>map view</strong>.</p>
-<div style="display:flex; justify-content:center; align-items:flex-start; gap:80px; margin:60px 0; flex-wrap:wrap;">
-<div style="display:flex; flex-direction:column; align-items:center; max-width:260px;">
-<p><strong>List view</strong></p>
-<p><img src="images/clipboard-2580061551.png" width="220"></p>
-<p style="margin-top:15px; text-align:center;">
-View a list of nearby NHS services and compare live waiting times.
-</p>
-</div>
-<div style="display:flex; flex-direction:column; align-items:center; max-width:260px;">
-<p><strong>Map view</strong></p>
-<p><img src="images/Screenshot 2025-11-19 135846.png" width="220"></p>
-<p style="margin-top:15px; text-align:center;">
-View nearby NHS services on a map to see locations and distances.
-</p>
-</div>
-</div>
-<hr>
-</section>
-<section id="step-3-view-service-details" class="level4">
-<h4 class="anchored" data-anchor-id="step-3-view-service-details">Step 3: View service details</h4>
-<p>Select a service to view more detailed information, including wait times and service status.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Screenshot (16).png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
-</figure>
-</div>
-<hr>
-</section>
-<section id="step-4-get-directions" class="level4">
-<h4 class="anchored" data-anchor-id="step-4-get-directions">Step 4: Get directions</h4>
-<p>Users can view directions to the selected service, helping them plan their journey.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/IMG_2734.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="190"></p>
-</figure>
-</div>
-<p>NHSquicker provides a range of features designed to help users find the most appropriate urgent-care service.</p>
-</section>
-<section id="alternative-services" class="level3">
-<h3 class="anchored" data-anchor-id="alternative-services">Alternative Services:</h3>
-<p>The app also provides information for alternative services such as GP and pharmacies:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Screenshot (23).png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="197"></p>
-</figure>
-</div>
-</section>
-<section id="health-conditions-and-treatments" class="level3">
-<h3 class="anchored" data-anchor-id="health-conditions-and-treatments">Health Conditions and Treatments:</h3>
-<p>The app provides access to trusted information on health conditions and treatments, linking directly to content from the NHS website.</p>
-<p><a href="https://www.nhs.uk/conditions/" class="uri">https://www.nhs.uk/conditions/</a>.</p>
-</section>
-<section id="call-111-or-999" class="level3">
-<h3 class="anchored" data-anchor-id="call-111-or-999">Call 111 or 999</h3>
-<p>NHSquicker allows users to quickly access urgent advice or emergency services when needed.</p>
+</details>
+<details>
+<summary>
+Royal Devon University Healthcare NHS Foundation Trust
+</summary>
 <ul>
-<li><strong>NHS 111</strong> for urgent medical advice<br>
-</li>
-<li><strong>999</strong> for emergencies only</li>
+<li>RD&amp;E Hospital Wonford (A&amp;E)</li>
+<li>North Devon District Hospital (A&amp;E)</li>
+<li>Honiton Hospital MIU</li>
+<li>Bideford Hospital MIU (Not Live/Temp Closure)</li>
+<li>Ilfracombe Tyrrell Hospital MIU (Not Live/Temp Closure)</li>
+<li>Lynton Resource Centre MIU (Not Live/Temp Closure)</li>
+<li>Sidwell Street Walk-in Centre</li>
+<li>Exmouth MIU</li>
+<li>Okehampton MIU (Not Live)</li>
+<li>Ottery MIU (Not Live/Temp Closure)</li>
+<li>Ilfracombe Assessment and Treatment Centre (Not Live/Temp Closure)</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Screenshot (18).png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="188"></p>
-</figure>
-</div>
-
-
+</details>
+<details>
+<summary>
+Plymouth Hospitals NHS Trust
+</summary>
+<ul>
+<li>Derriford Hospital (A&amp;E)</li>
+<li>Tavistock MIU</li>
+<li>Kingsbridge MIU</li>
+<li>Cumberland Urgent Treatment Centre (formerly Plymouth MIU)</li>
+</ul>
+</details>
+<details>
+<summary>
+Royal Cornwall Hospitals NHS Trust
+</summary>
+<ul>
+<li>Royal Cornwall Hospital Treliske (A&amp;E)</li>
+<li>Bodmin MIU</li>
+<li>Camborne Redruth MIU</li>
+<li>Falmouth MIU</li>
+<li>Helston MIU</li>
+<li>Launceston MIU</li>
+<li>Liskeard MIU</li>
+<li>Newquay MIU</li>
+<li>St Austell MIU</li>
+<li>St Marys Isles of Scilly MIU</li>
+<li>Stratton MIU</li>
+<li>West Cornwall URGENT CARE CENTRE</li>
+</ul>
+</details>
+<details>
+<summary>
+Somerset NHS Foundation Trust
+</summary>
+<ul>
+<li>Yeovil Hospital (A&amp;E)</li>
+<li>Mushgrove Park Hospital (A&amp;E)</li>
+<li>Bridgwater Urgent Treatment Centre</li>
+<li>Burnham on Sea MIU</li>
+<li>Chard Urgent Treatment Centre</li>
+<li>Frome Urgent Treatment Centre</li>
+<li>West Mendip (Glastonbury) Urgent Treatment Centre</li>
+<li>Minehead Urgent Treatment Centre</li>
+<li>Shepton Mallet Urgent Treatment Centre</li>
+</ul>
+</details>
+<details>
+<summary>
+South Western Ambulance Trust
+</summary>
+<ul>
+<li>Tiverton Urgent Care Centre</li>
+</ul>
+</details>
 </section>
+<!-- Right column: map -->
+<div style="flex:1 1 350px; min-width:300px;">
+<p><img src="Rplot08.png" class="img-fluid" style="width:100.0%" alt="Map of NHSquicker service locations"></p>
+</div>
+</div>
+<section id="data-process" class="level2">
+<h2 class="anchored" data-anchor-id="data-process">Data process</h2>
+<p><img src="DAS_architecture.png" class="img-fluid"></p>
+</section>
+<section id="limitations-data" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-data">Limitations</h2>
+<p>limitations</p>
+
+
 </section>
 
 </main> <!-- /main -->
