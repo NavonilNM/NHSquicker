@@ -36,11 +36,15 @@ Mention of the app in their urgent and emergency care section of the website.
 
 
 ::: {.reference-item}
-![](images/clipboard-2408687730.png){.reference-logo}
+
+<div class="reference-logos">
+  ![](images/clipboard-2408687730.png){.reference-logo}
+  ![](images/cios_ics_logo_small.png){.reference-logo}
+</div>
 
 ::: {.reference-content}
 **NHS Cornwall and Isles of Scilly**  
-Mention of the app in their urgent and emergency care wait times section of the website. 
+Mention of the app in their urgent and emergency care wait times section of the website, and also displays a video of the app. 
 
 [View reference →](https://cios.icb.nhs.uk/help-us/waiting-times/)
 :::

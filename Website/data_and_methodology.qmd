@@ -1,7 +1,7 @@
 ::: {style="display:flex; flex-wrap:wrap; gap:2rem; align-items:flex-start;"}
 
 <!-- Left column: list of services -->
-<div style="flex:1 1 350px; min-width:300px;">
+<div style="flex:1 1 320px; min-width:300px;">
 
 ### Data sources {#data-sources}
 
@@ -85,22 +85,31 @@
 </div>
 
 <!-- Right column: map -->
-<div style="flex:1 1 350px; min-width:300px;">
-![](Rplot08.png){width="100%" alt="Map of NHSquicker service locations"}
+<div style="flex:1.4 1 420px; min-width:400px; align-self:flex-start; margin-top: 5rem; margin-bottom: 10rem;">
+
+![](Rplot08.png){
+  width="100%"
+  style="display:block; border-radius:0px; box-shadow:0 2px 8px rgba(0,0,0,0.08);"
+}
+
+
 </div>
 
 :::
 
 
 
+
+
+
 ## Data process {#data-process}
 
-![](DAS_architecture.png)
+
+This map shows how real-time data sent from NHS trusts is then sent to NHSquicker, and then to the app for people to view. 
+
+<div style="text-align: center;">
+  <img src="DAS_architecture.png" style="max-width:600px; width:100%;" />
+</div>
 
 
 
-
-## Limitations {#limitations-data}
-
-
-limitations

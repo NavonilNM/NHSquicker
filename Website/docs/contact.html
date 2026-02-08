@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -104,30 +69,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-
-<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
-
-<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
-
-<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
-
-<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
-
-<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
-
-<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
-
-<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
-
-<script src="site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
-
 
 
 <link rel="stylesheet" href="styles.css">
@@ -287,85 +228,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="nhs-services-map" class="level2">
-<h2 class="anchored" data-anchor-id="nhs-services-map">NHS Services Map</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(leaflet)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'leaflet' was built under R version 4.4.3</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'dplyr'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:stats':
-
-    filter, lag</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    intersect, setdiff, setequal, union</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: package 'readxl' was built under R version 4.4.3</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>Book3 <span class="ot">&lt;-</span> <span class="fu">read_excel</span>(<span class="st">"C:/Users/amywa/OneDrive/Book3.xlsx"</span>)</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare the data</span></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>nhs_services <span class="ot">&lt;-</span> Book3 <span class="sc">%&gt;%</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">Latitude  =</span> <span class="fu">as.numeric</span>(Latitude),</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">Longitude =</span> <span class="fu">as.numeric</span>(Longitude),</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">Type      =</span> <span class="fu">factor</span>(Type, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"A&amp;E"</span>, <span class="st">"MIU"</span>)),</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">color     =</span> <span class="fu">ifelse</span>(Type <span class="sc">==</span> <span class="st">"A&amp;E"</span>, <span class="st">"red"</span>, <span class="st">"#609c91"</span>)</span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit bounds</span></span>
-<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>bounds <span class="ot">&lt;-</span> nhs_services <span class="sc">%&gt;%</span></span>
-<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
-<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">minLat =</span> <span class="fu">min</span>(Latitude, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">maxLat =</span> <span class="fu">max</span>(Latitude, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">minLng =</span> <span class="fu">min</span>(Longitude, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">maxLng =</span> <span class="fu">max</span>(Longitude, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the map</span></span>
-<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a><span class="fu">leaflet</span>(nhs_services,</span>
-<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">options =</span> <span class="fu">leafletOptions</span>(</span>
-<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>          <span class="at">zoomControl =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>          <span class="at">dragging =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>          <span class="at">scrollWheelZoom =</span> <span class="cn">FALSE</span></span>
-<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>        )) <span class="sc">%&gt;%</span></span>
-<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addProviderTiles</span>(providers<span class="sc">$</span>CartoDB.Positron) <span class="sc">%&gt;%</span></span>
-<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">addCircleMarkers</span>(</span>
-<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng =</span> <span class="sc">~</span>Longitude,</span>
-<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat =</span> <span class="sc">~</span>Latitude,</span>
-<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">radius =</span> <span class="dv">6</span>,</span>
-<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="sc">~</span>color,</span>
-<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">fillOpacity =</span> <span class="fl">0.9</span>,</span>
-<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="sc">~</span>Service,</span>
-<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">labelOptions =</span> <span class="fu">labelOptions</span>(</span>
-<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>      <span class="at">style =</span> <span class="fu">list</span>(<span class="st">"font-weight"</span> <span class="ot">=</span> <span class="st">"bold"</span>, <span class="at">padding =</span> <span class="st">"3px 6px"</span>),</span>
-<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>      <span class="at">textsize =</span> <span class="st">"12px"</span>,</span>
-<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>      <span class="at">direction =</span> <span class="st">"auto"</span></span>
-<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fitBounds</span>(</span>
-<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng1 =</span> bounds<span class="sc">$</span>minLng,</span>
-<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat1 =</span> bounds<span class="sc">$</span>minLat,</span>
-<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">lng2 =</span> bounds<span class="sc">$</span>maxLng,</span>
-<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">lat2 =</span> bounds<span class="sc">$</span>maxLat</span>
-<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-68f5bd4ba36a4f3c2409" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-68f5bd4ba36a4f3c2409">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomControl":false,"dragging":false,"scrollWheelZoom":false},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[50.482322,50.580588,50.536772,50.432778,50.716259,51.09226,50.794917,51.01794,51.20452,51.22922,50.7263739,50.6206661,50.73911,50.75029,51.2048,50.4162,50.547281,50.289298,50.370059,50.26599,50.468259,50.229406,50.155684,50.091947,50.628218,50.461584,50.411047,50.327142,49.913069,50.830745,50.122056,50.9452,51.0117725,51.141251,51.238939,50.875022,51.238157,51.160407,51.198989,51.190639,50.90932],[-3.553805,-3.474788,-3.60792,-3.68419,-3.506657,-4.04983,-3.186587,-4.21249,-4.12441,-3.83724,-3.5269931,-3.4041265,-3.99756,-3.29128,-4.12434,-4.1141,-4.153647,-3.781443,-4.168904,-5.0917849,-4.743011,-5.244461,-5.086141,-5.264932,-4.359059,-4.450995,-5.074224,-4.77305,-6.309332,-4.517539,-5.542976,-2.6339,-3.1196337,-2.974171,-2.993931,-2.952373,-2.311478,-2.698484,-3.462695,-2.562964,-3.492985],6,null,null,{"interactive":true,"className":"","stroke":true,"color":["red","#609c91","#609c91","#609c91","red","red","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","red","#609c91","#609c91","#609c91","red","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","red","red","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["red","#609c91","#609c91","#609c91","red","red","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","red","#609c91","#609c91","#609c91","red","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","red","red","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91","#609c91"],"fillOpacity":0.9},null,null,null,null,["Torbay Hospital","Dawlish Hospital","Newton Abbot Hospital","Totnes Hospital","RD&amp;E Hospital Wonford","North Devon District Hospital","Honiton Hospital","Bideford Hospital","Ilfracombe Tyrrell Hospital","Lynton Resource Centre","Sidwell Street Walk-in Centre","Exmouth","Okehampton","Ottery","Ilfracombe Assessment and Treatment Centre","Derriford Hospital","Tavistock","Kingsbridge","Cumberland Urgent Treatment Centre","Royal Cornwall Hospital Treliske","Bodmin","Camborne Redruth","Falmouth","Helston","Lauceston","Liskeard","Newquay","St Austell","St Marys Isles of Scilly","Stratton","West Cornwall Urgent Care Centre","Yeovil Hospital","Mushgrove Park Hospital","Bridgwater Urgent Treatment Centre","Burham on Sea","Chard Urgent Treatment Centre","Frome Urgent Treatment Centre","West Mendip (Glastonbury) Urgent Treatment Centre","Minehead Urgent Treatment Centre","Shepton Mallet Urgent Treatment Centre","Tiverton Urgent Care Centre"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"12px","textOnly":false,"style":{"font-weight":"bold","padding":"3px 6px"},"className":"","sticky":true},null]}],"limits":{"lat":[49.913069,51.238939],"lng":[-6.309332,-2.311478]},"fitBounds":[49.913069,-6.309332,51.238939,-2.311478,[]]},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<section id="contact" class="level2">
+<h2 class="anchored" data-anchor-id="contact">Contact</h2>
 
 
 </section>
