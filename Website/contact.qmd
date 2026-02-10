@@ -1,1 +1,32 @@
 ## Contact
+
+For enquiries about NHSquicker, research collaboration, or technical support, please contact the relevant team members below.
+
+
+<div class="contact-list">
+
+::: {.contact-item}
+**Nav Mustafee**  
+📧 [n.mustafee@exeter.ac.uk](mailto:n.mustafee@exeter.ac.uk)  
+🔗 [ORCID](https://orcid.org/0000-0002-2204-8924)
+:::
+
+::: {.contact-item}
+**Alison Harper**  
+📧 [a.l.harper@exeter.ac.uk](mailto:a.l.harper@exeter.ac.uk)  
+🔗 [ORCID]( https://orcid.org/0000-0001-5274-5037)
+:::
+
+::: {.contact-item}
+**Tom Monks**  
+📧 [t.m.w.monks@exeter.ac.uk](mailto:t.m.w.monks@exeter.ac.uk)
+🔗 [ORCID]( https://orcid.org/0000-0003-2631-4481)
+
+:::
+
+::: {.contact-item}
+**Amy Wallington**  
+📧 [aw1018@exeter.ac.uk](mailto:aw1018@exeter.ac.uk)  
+:::
+
+</div>

@@ -107,17 +107,3 @@ Here is a demo of how to use the app, starting from entering your postcode, to f
 ![](images/ScreenRecording_11-19-2025%2010-15-48_1-01.mp4){autoplay="true" muted="true" loop="true" width="250" style="display:block; margin:100px auto;"}
 
 ::: {style="text-align:center;"}
-### In the News
-:::
-
-NHSquicker has featured on BBC News.
-
-<div style="display:flex; justify-content:center; gap:30px; flex-wrap:wrap; margin:40px 0;">
-  <video width="380" muted controls>
-    <source src="images/NHSq_BBC%20spotlight_19th%20May-01.mp4" type="video/mp4">
-  </video>
-
-  <video width="380" muted controls>
-    <source src="images/NHSquicker_BBC%20Spotlight_18th%20Dec%202017-01.mp4" type="video/mp4">
-  </video>
-</div>

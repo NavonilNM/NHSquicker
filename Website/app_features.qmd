@@ -19,7 +19,7 @@ This is the primary function of NHSquicker, enabling users to compare real-time 
 
 ---
 
-#### Step 1: Enter your postcode
+#### **Step 1: Enter your postcode**
 
 
 
@@ -31,7 +31,7 @@ Enter your postcode to find nearby NHS urgent-care services.
 
 ---
 
-#### Step 2: Choose how to view wait times
+#### **Step 2: Choose how to view wait times**
 
 Users can view wait times in two ways: a **list view** or a **map view**.
 
@@ -61,7 +61,7 @@ View nearby NHS services on a map to see locations and distances.
 
 ---
 
-#### Step 3: View service details
+#### **Step 3: View service details**
 
 Select a service to view more detailed information, including wait times and service status.
 
@@ -69,7 +69,7 @@ Select a service to view more detailed information, including wait times and ser
 
 ---
 
-#### Step 4: Get directions
+#### **Step 4: Get directions**
 
 Users can view directions to the selected service, helping them plan their journey.
 
@@ -80,10 +80,6 @@ Users can view directions to the selected service, helping them plan their journ
 
 
 
-
-
-
-NHSquicker provides a range of features designed to help users find the most appropriate urgent-care service.
 
 
 

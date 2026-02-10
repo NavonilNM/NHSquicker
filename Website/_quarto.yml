@@ -35,8 +35,6 @@ website:
             href: data_and_methodology.qmd#data-sources
           - text: "Data process"
             href: data_and_methodology.qmd#data-process
-          - text: "Limitations"
-            href: data_and_methodology.qmd#limitations-data
 
       - section: "Research & Evidence"
         contents:
@@ -47,8 +45,6 @@ website:
             
       - section: "Recognition & Media"
         contents:
-          - text: "Achievements"
-            href: media.qmd#achievements
           - text: "Awards"
             href: media.qmd#awards
           - text: "In the news"
