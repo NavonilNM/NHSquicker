@@ -11,8 +11,7 @@
 <a href="images/Providing Real-Time Information for Urgent Care.pdf" target="_blank"> <img src="images/Screenshot 2025-11-19 105235.png" width="200"/> </a>
 :::
 
-
-#### NHSquicker Journal Papers:
+#### Research Papers:
 
 - Mustafee, N., Harper, A., Zoppos, G., Fenga, L., & Monks, T. (2026). Predictive triggers based on time-series data for real-time simulation (RTS) experimentation. In *Proceedings of the 2026 Winter Simulation Conference (WSC)*. Accepted.
 
