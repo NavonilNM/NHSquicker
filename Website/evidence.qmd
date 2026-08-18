@@ -1,7 +1,7 @@
 ## Research & Publications {#research-publications}
 
 
-#### Links to NHSquicker Research Papers:
+#### NHSquicker Linked Impact Articles:
 
 ::: {style="display:flex; gap:80px; align-items:center; margin-top: 2rem; margin-bottom: 5rem;"}
 <a href="images/Improving Urgent and Emergency Care Decisions in the South West-01.pdf" target="_blank"> <img src="images/Screenshot 2025-11-19 104328.png" width="200"/> </a>
@@ -12,6 +12,26 @@
 :::
 
 
+#### NHSquicker Journal Papers:
+
+- Mustafee, N., Harper, A., Zoppos, G., Fenga, L., & Monks, T. (2026). Predictive triggers based on time-series data for real-time simulation (RTS) experimentation. In *Proceedings of the 2026 Winter Simulation Conference (WSC)*. Accepted.
+
+- Chakravarty, S., Kaplan, T. R., & Mustafee, N. (2020). [Altering wait time information to reduce A&E overcrowding](https://hdl.handle.net/10871/129135). *Economics Department Discussion Papers Series*, ISSN 1473–3307.
+
+- Harper, A., & Mustafee, N. (2019). [A hybrid modelling approach using forecasting and real-time simulation to prevent emergency department overcrowding](https://doi.org/10.1109/WSC40007.2019.9004862). In *Proceedings of the 2019 Winter Simulation Conference (WSC)* (pp. 1208–1219). IEEE.
+
+- Harper, A., & Mustafee, N. (2019). [Proactive service recovery in emergency departments: A hybrid modelling approach using forecasting and real-time simulation](https://doi.org/10.1145/3316480.3322892). In *Proceedings of the 2019 ACM SIGSIM Conference on Principles of Advanced Discrete Simulation* (pp. 201–204).
+
+- Mustafee, N., Powell, J. H., & Harper, A. (2018). [RH-RT: A data analytics framework for reducing wait time at emergency departments and centres for urgent care](https://doi.org/10.1109/WSC.2018.8632378). In *Proceedings of the 2018 Winter Simulation Conference (WSC)* (pp. 100–110). IEEE.
+
+
+#### Papers contextualised with NHSquicker
+
+- Harper, A., Mustafee, N., & Viana, J. (2026). [Real-time decision-support using simulation (RtS) for operational responsiveness in urgent and emergency care: Bridging the gap between conventional simulation and digital twins](https://doi.org/10.1016/j.ejor.2026.05.032). *European Journal of Operational Research*.
+
+- Mustafee, N., Harper, A., Viana, J., & Monks, T. (2024). [A maturity model for digital twins in healthcare](https://doi.org/10.1109/WSC63780.2024.10838785). In *Proceedings of the 2024 Winter Simulation Conference (WSC)* (pp. 1151–1162). IEEE.
+
+- Mustafee, N., Harper, A., & Viana, J. (2023). [Hybrid models with real-time data in healthcare: A focus on data synchronization and experimentation](https://doi.org/10.1109/WSC60868.2023.10407687). In *Proceedings of the 2023 Winter Simulation Conference (WSC)* (pp. 1148–1159). IEEE.
 
 
 
