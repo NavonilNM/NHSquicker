@@ -1,5 +1,13 @@
 ## Awards {#awards}
 
+::: {layout-ncol="2"}
+[![Winner of the OR Society Lyn Thomas Impact Award 2023](images/Lyn_thomas_award.png)](https://news.exeter.ac.uk/staff-news/exeter-researchers-receive-impact-award-for-digital-platform-that-can-reduce-ae-waiting-times/){target="_blank"}
+
+[![Finalist EURO 2021](images/euro_awards.png)](https://www.euro-online.org/web/pages/1689/eepa-finalists-2021?){target="_blank"}
+
+:::
+
+
 ::: {layout-ncol="3"}
 
 ![Finalist at the HSJ 2025](images/Screenshot 2025-12-01 155948.png)
@@ -9,12 +17,6 @@
 ![Shortlisted THE Awards 2018](images/THE.png)
 :::
 
-::: {layout-ncol="2"}
-[![Winner of the OR Society Lyn Thomas Impact Award 2023](images/Lyn_thomas_award.png)](https://news.exeter.ac.uk/staff-news/exeter-researchers-receive-impact-award-for-digital-platform-that-can-reduce-ae-waiting-times/){target="_blank"}
-
-[![Finalist EURO 2021](images/euro_awards.png)](https://www.euro-online.org/web/pages/1689/eepa-finalists-2021?){target="_blank"}
-
-:::
 
 ## News {#news}
 
